@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'build step'
-                sh 'npm install'
+                sh 'npm install --save-dev webpack'
             }
         }
         // stage('Test') {
